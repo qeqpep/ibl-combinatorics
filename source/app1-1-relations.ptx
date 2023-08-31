@@ -670,14 +670,14 @@
     </p>
 
     <p>
-      More generally, if <m>f</m> is a function from a set <m>R</m> to a set <m>S</m>, and <m>g</m> is a function from <m>S</m> to <m>T</m>, then we define a new function <m>f \circ g</m>, called the <term>composition</term> of <m>f</m> and <m>g</m> <idx><h>composition</h></idx><idx><h>function</h><h>composition</h></idx>, by <m>f\circ g(x) = f(g(x))</m>.  Composition of functions is a particularly important operatio in subjects such as calculus, where we represent a function like <m>h(x) = \sqrt{x^2 + 1}</m> as the composition of the square root function and the square and add one function in order to use the chain rule to take the derivative of <m>h</m>.
+      More generally, if <m>f</m> is a function from a set <m>R</m> to a set <m>S</m>, and <m>g</m> is a function from <m>S</m> to <m>T</m>, then we define a new function <m>f \circ g</m>, called the <term>composition</term> of <m>f</m> and <m>g</m> <idx><h>composition</h></idx><idx><h>function</h><h>composition</h></idx>, by <m>f\circ g(x) = f(g(x))</m>.  Composition of functions is a particularly important operation in subjects such as calculus, where we represent a function like <m>h(x) = \sqrt{x^2 + 1}</m> as the composition of the square root function and the square and add one function in order to use the chain rule to take the derivative of <m>h</m>.
     </p>
 
     <p>
       The function <m>\iota</m> (the Greek letter iota is pronounced eye-oh-ta) from a set <m>S</m> to itself, given by the rule <m>\iota(x) = x</m> for every <m>x</m> in <m>S</m>, is called the <term>identity function</term> on S. <idx><h>identity function</h></idx> If <m>f</m> is a function from <m>S</m> to <m>T</m> and <m>g</m> is a function from <m>T</m> to <m>S</m> such that <m>g(f(x)) = x</m> for every <m>x</m> in <m>S</m>, we can express this by saying that <m>g\circ f = \iota</m>, where <m>\iota</m> is the identity function of <m>S</m>.
       Saying that <m>f(g(x)) = x</m> is the same as saying that <m>f\circ g = \iota</m>, where <m>\iota</m> stands for the identity function on <m>T</m>.  We use the same letter for the identity function on two different sets when we can use context to tell us on which set the identity function is being defined.
     </p>
-
+iota
     <activity>
       <statement>
         <p>
